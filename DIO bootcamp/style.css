@@ -1,0 +1,73 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+}
+.container{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center; /*a propriedade alinha itens do flex container quando eles n usam td espaço disponível*/
+align-items: center; /*alinhamento padrão de tds itens dentro do container */
+}
+.card{
+    width: 500px;
+    height: 400px;
+    background-image: url('/DIO bootcamp/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointed;
+    filter: grayscale(0.3);
+    transition: 0.3s;
+    }
+    .card-wrapper{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .card-wrapper::before{
+        content: "";
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        display: block;
+        border: 1px solid white;
+        opacity: 0;
+        transition: 0.3s;
+    }
+    .card-wrapper h2{
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 0;
+        transition: 0.3s;
+    }   
+    .card-wrapper p{
+        font-size: 0px;
+        visibility: hidden;
+        opacity: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+    .card:hover{
+        filter: unset;
+    }
+    .card:hover > .card-wrapper::before{
+        height: 300px;
+        width: 400px;
+        opacity: 1;
+    }
+    .card:hover > .card-wrapper p{
+        opacity: 1;
+        visibility: visible;
+        font-size: 20px;
+    }
