@@ -7,4 +7,4 @@ Ele irá checar se:
 - O resultado da soma entre ***num1*** e ***num2***
 - Menores que 10 e 20,
 
-Script criado seguindo [estas]([url](https://github.com/stebsnusch/basecamp-javascript/blob/main/sintaxe-e-operadores/comparaNumeros.js)) proposições
+Script criado seguindo [estas](https://github.com/stebsnusch/basecamp-javascript/blob/main/sintaxe-e-operadores/comparaNumeros.js) proposições
