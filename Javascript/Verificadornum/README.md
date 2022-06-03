@@ -1,5 +1,5 @@
 ## VERIFICADOR FEITO EM JAVASCRIPT 
-<sup>Exercicío proposto no Bootcamp Fulstack da Digital Innovation One</sup>
+<sup>Exercicío proposto no Bootcamp FulLstack da Digital Innovation One</sup>
 
 Ele irá checar se:
 
